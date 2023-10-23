@@ -9,13 +9,14 @@
     justify-items: center;
     row-gap: 2rem;
 
+
     &__list {
         display: grid;
         grid-template-columns: min-content max-content;
-        column-gap: 2rem;
+        grid-column-gap: 2rem;
         row-gap: 5vh;
-
         align-items: center;
+
     }
 
     &__img {
@@ -29,5 +30,4 @@
         color: $color-grey-light-2;
         margin-top: -3px;
     }
-
 }
